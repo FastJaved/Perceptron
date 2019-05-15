@@ -1,1 +1,6 @@
 language: java
+mvn sonar:sonar \
+  -Dsonar.projectKey=FastJaved_Perceptron \
+  -Dsonar.organization=fastjaved-github \
+  -Dsonar.host.url=https://sonarcloud.io \
+  -Dsonar.login=6839183ec3bd58afd0b67014ea4432f6d0cbf231
